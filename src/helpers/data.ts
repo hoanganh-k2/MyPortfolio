@@ -21,7 +21,7 @@ export const EXPERIENCES = [
       en: "Phenikaa Student Programming Club",
     },
     duration: {
-      vi: "Tháng 1 - 2024 - Tháng 9 - 2025",
+      vi: "Tháng 1/2024 - 9/2025",
       en: "Jan 2024 - Sep 2025",
     },
   },
