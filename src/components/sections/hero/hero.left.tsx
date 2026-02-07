@@ -21,7 +21,7 @@ const HeroLeft = (props: IProps) => {
 
   const ReviewCv = () => {
     openInNewTab(
-      "https://drive.google.com/file/d/14sDMyAj1eXjxwl1gHgav89G2TdNxI7uy/view?usp=sharing",
+      "https://drive.google.com/file/d/1mNMAGv11NbFLzTSWMsOk7Mum20EeYem3/view?usp=sharing",
     );
   };
 
