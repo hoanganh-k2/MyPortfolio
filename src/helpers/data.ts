@@ -1,15 +1,12 @@
 import nestImg from "assets/project/nestjs.png";
-import nextjsImg from "assets/project/nextjs.jpeg";
-import reactNativeImg from "assets/project/react-native.png";
-import reactUltimateImg from "assets/project/react-ultimate.png";
-import springMvcImg from "assets/project/spring-mvc.png";
-import springRestImg from "assets/project/spring-rest.png";
+import react from "assets/project/React.PNG";
+import php from "assets/project/PHPLaravel.png";
 
 export const APP_DATA = {
-  YOUTUBE_URL: "https://www.youtube.com/@hoidanit",
-  TIKTOK_URL: "https://www.tiktok.com/@hoidanit",
-  UDEMY_URL: "https://www.udemy.com/user/eric-7039/",
-  FACEBOOK_URL: "https://www.facebook.com/askITwithERIC/",
+  YOUTUBE_URL: "https://www.facebook.com/H.anhhhhhhhhhhhhhhhhhhhh/",
+  TIKTOK_URL: "https://www.facebook.com/H.anhhhhhhhhhhhhhhhhhhhh/",
+  UDEMY_URL: "https://www.instagram.com/h.anhhhhhhhhhhhhhhhhhhhh/",
+  FACEBOOK_URL: "https://www.facebook.com/H.anhhhhhhhhhhhhhhhhhhhh/",
 };
 
 export const EXPERIENCES = [
@@ -20,28 +17,28 @@ export const EXPERIENCES = [
       en: "Fullstack Developer",
     },
     company: {
-      vi: "Công ty ABCXYZ Ltd.",
-      en: "ABCXYZ Ltd.",
+      vi: "CLB Lập trình sinh viên Phenikaa",
+      en: "Phenikaa Student Programming Club",
     },
     duration: {
-      vi: "Jan 2024 - Hiện tại",
-      en: "Jan 2024 - Present",
+      vi: "Tháng 1 - 2024 - Tháng 9 - 2025",
+      en: "Jan 2024 - Sep 2025",
     },
   },
   {
     id: 2,
     title: {
       vi: "Lập Trình Viên",
-      en: "Fullstack Developer",
+      en: "Intern BrSE",
     },
 
     company: {
-      vi: "Công ty F (freelancer)",
-      en: "F (freelancer)",
+      vi: "Công ty FPT",
+      en: "FPT software",
     },
     duration: {
-      vi: "Tháng 6/2022 - Tháng 1/2024",
-      en: "Jun 2022 - Jan 2024",
+      vi: "Tháng 1/2026 - Hiện tại",
+      en: "Jan 2026 - Present",
     },
   },
   {
@@ -55,8 +52,8 @@ export const EXPERIENCES = [
       en: "Code and build something in everyday.",
     },
     duration: {
-      vi: "Tháng 1/2020 - Hiện tại",
-      en: "Jan 2020 - Present",
+      vi: "Tháng 10/2022 - Hiện tại",
+      en: "Oct 2020 - Present",
     },
   },
 ];
@@ -64,69 +61,40 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     id: 1,
-    imgPath: reactNativeImg,
-    title: "React Native Basic",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
+    imgPath: nestImg,
+    title: "Xây dựng Website tuyển dụng",
+    description: `Hệ thống backend cho nền tảng tuyển dụng việc làm, cung cấp
+đầy đủ API để quản lý người dùng, công ty, tin tuyển dụng và hồ sơ ứng
+viên. Dự án được xây dựng theo kiến trúc modular với NestJS, tập trung
+vào tính bảo mật, hiệu năng và khả năng mở rộng.
+Thiết kế và phát triển RESTful API backend cho nền tảng tuyển dụng việc
+làm`,
+    githubLink: "https://github.com/hoanganh-k2/Backend-nestjs.git",
+    demoLink: "https://github.com/hoanganh-k2/Backend-nestjs.git",
   },
   {
     id: 2,
-    imgPath: springRestImg,
-    title: "Java Spring REST",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
+    imgPath: react,
+    title: "Xây dựng website hệ thống quản lý Quiz online",
+    description: `Xây dựng hệ thống thi trắc nghiệm trực tuyến hoàn chỉnh, cho
+phép quản lý câu hỏi, bài thi và theo dõi kết quả học viên. Hệ thống hỗ
+trợ đa ngôn ngữ (Tiếng Việt/English) và có giao diện quản trị riêng biệt
+cho Admin.
+`,
+    githubLink: "https://github.com/hoanganh-k2/Frontend-react.git",
+    demoLink: "https://github.com/hoanganh-k2/Frontend-react.git",
   },
   {
     id: 3,
-    imgPath: springMvcImg,
-    title: "Java Spring MVC",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-  },
-  {
-    id: 4,
-    imgPath: nextjsImg,
-    title: "React ProMax with Next.js",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-  },
-  {
-    id: 5,
-    imgPath: nestImg,
-    title: "Nest.js Basic",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-  },
-  {
-    id: 6,
-    imgPath: reactUltimateImg,
-    title: "React Ultimate",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    githubLink:
-      "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
+    imgPath: php,
+    title: "Website quản lý dịch vụ đặt phòng khách sạn",
+    description: `Xây dựng website quản lý khách sạn trên nền tảng TALL
+Stack(Tailwind CSS 3, Alpine.js 3, Laravel Livewire 2, Laravel 9). Dự án
+phục vụ cho Phenikaa Hotel với tính năng đặt phòng trực tuyến, quản lý
+vận hành cho nhân viên và chatbot AI hỗ trợ khách hàng được tích hợp
+Google Gemini`,
+    githubLink: "https://github.com/hoanganh-k2/DALN.git",
+    demoLink: "https://github.com/hoanganh-k2/DALN.git",
   },
 ];
 
@@ -137,20 +105,16 @@ export const SKILLS_DATA = [
   "Typescript",
   "React",
   "Next JS",
-  "Tailwind",
+  "Node JS",
   "MongoDB",
   "MySQL",
-  "PostgreSQL",
   "Git",
-  "AWS",
   "Bootstrap",
   "Docker",
-  "Go",
   "Figma",
-  "Firebase",
-  "MaterialUI",
-  "Nginx",
-  "Strapi",
+  "C",
+  "C++",
+  "Canva",
 ];
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

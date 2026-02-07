@@ -27,7 +27,7 @@ const Experience = () => {
         xs={12}
         className="d-flex align-items-center justify-content-center"
       >
-        <AnimationLottie animationPath={experienceJSON} />
+        <AnimationLottie animationPath={experienceJSON} width="95%" />
       </Col>
       <Col md={6} xs={12}>
         <div className="d-flex flex-column gap-5">

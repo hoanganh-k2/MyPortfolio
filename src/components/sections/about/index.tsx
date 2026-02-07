@@ -20,30 +20,28 @@ const About = () => {
           </h3>
           <div>
             <div>
-              <p> Hi Everyone, I am HoiDanIT from Hanoi, VietNam.</p>
+              <p> Hi Everyone, I am Phung Hoang Anh from Hanoi, VietNam.</p>
 
-              <p> I am currently employed as a a freelance dev (start-up).</p>
+              <p> I am currently a 4th-year student at Phenikaa University, majoring in Information Technology.</p>
 
               <p>
                 {" "}
-                I have completed Bachelor's degree in Software Engineer at Hanoi
-                University of Science and Technology (HUST).
+               I have a strong interest in software development, especially in building clean, efficient, and user-friendly applications.
               </p>
             </div>
           </div>
           <div>
-            <p>Apart from coding, some other activities that I love to do!</p>
+            <p>Apart from coding, here are some activities that I enjoy:</p>
             <ul>
               <li>Playing Games</li>
-              <li>Writing Tech Blogs</li>
+              <li>Exploring new technologies and improving my skills</li>
               <li>Travelling</li>
             </ul>
           </div>
           <div>
             <p className="text-center brand-red">
-              "Pursuing Your Dreams Is How You Become Homeless ~.~"
+              "Keep learning, keep growing"
             </p>
-            <p className="text-center brand-red">--Jimmy O Yang</p>
           </div>
         </Col>
         <Col
@@ -78,7 +76,7 @@ const About = () => {
                 <div className="p-3 relative">
                   <div className="experience-container">
                     <div className="duration-text">
-                      <p>20xx-20xx</p>
+                      <p>2022-2026</p>
                     </div>
                     <div className="details">
                       <div className="icon">
@@ -87,7 +85,7 @@ const About = () => {
                       <div className="info">
                         <p className="title">Softwaren Engineer</p>
                         <p className="company">
-                          Hanoi University of Science and Technology (HUST)
+                          Phenikaa University (PKA)
                         </p>
                       </div>
                     </div>

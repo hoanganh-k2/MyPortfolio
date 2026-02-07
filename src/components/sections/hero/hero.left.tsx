@@ -21,7 +21,7 @@ const HeroLeft = (props: IProps) => {
 
   const ReviewCv = () => {
     openInNewTab(
-      "https://drive.google.com/file/d/14sDMyAj1eXjxwl1gHgav89G2TdNxI7uy/view?usp=sharing"
+      "https://drive.google.com/file/d/14sDMyAj1eXjxwl1gHgav89G2TdNxI7uy/view?usp=sharing",
     );
   };
 
@@ -37,16 +37,11 @@ const HeroLeft = (props: IProps) => {
       </h3>
       <h3 style={{ paddingTop: 10, paddingBottom: 5 }}>
         I'M &nbsp;
-        <strong className="brand-red">{t("appHeader.brand")}</strong>
+        <strong className="brand-red">PHUNG HOANG ANH</strong>
       </h3>
       <Typewriter
         options={{
-          strings: [
-            "Software Developer",
-            "Freelancer",
-            "MERN Stack Developer",
-            "Open Source Contributor",
-          ],
+          strings: ["Software Developer", "Freelancer"],
           autoStart: true,
           loop: true,
           deleteSpeed: 50,
