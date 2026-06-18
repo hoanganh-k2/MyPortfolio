@@ -1,7 +1,7 @@
 import nestImg from "assets/project/nestjs.png";
 import react from "assets/project/React.PNG";
 import php from "assets/project/PHPLaravel.png";
-import topikMate from "assets/project/TOPIKMate.png";
+import topikMate from "assets/project/TopikMate.png";
 import kBridge from "assets/project/kbridge.png";
 import novaMart from "assets/project/NovaMart.png";
 
