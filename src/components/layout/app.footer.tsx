@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 const AppFooter = () => {
+  const { t } = useTranslation();
   return (
     <div className="text-center my-3">
-      Copyright © {new Date().getFullYear()} Wannabeeyours. Made with{" "}
+      Copyright © {new Date().getFullYear()} Phung Hoang Anh. {t("footer.madeWith")}{" "}
       <span
         style={{
           color: "#e25555",
@@ -9,7 +12,7 @@ const AppFooter = () => {
       >
         ♥
       </span>{" "}
-      in VietNam
+      {t("footer.in")}
     </div>
   );
 };

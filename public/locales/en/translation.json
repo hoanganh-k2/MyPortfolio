@@ -2,27 +2,74 @@
     "appHeader": {
         "brand": "Portfolio",
         "home": "Home",
-        "project": "Project",
+        "project": "Projects",
         "contact": "Contact",
         "about": "About"
     },
     "heroSection": {
-        "exp": "My Skill",
-        "cv": "Get Resume"
+        "greeting": "Hi There!",
+        "iam": "I'M",
+        "exp": "Experience",
+        "cv": "Get Resume",
+        "roles": [
+            "Korean Bridge Engineer",
+            "BrSE / KRSE",
+            "Fullstack Developer",
+            "브릿지 엔지니어"
+        ]
     },
     "introSection": {
         "about": "About me",
+        "title": "LET ME <0>INTRODUCE</0> MYSELF",
         "and": "and",
-        "heading1": "I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️",
-        "heading2": "I am fluent in classics like",
-        "heading3": "My field of Interest's are building new",
+        "heading1": "I fell in love with programming and I am building a career as a Korean Bridge Engineer (BrSE/KRSE), connecting Korean stakeholders with development teams.",
+        "heading2": "I am comfortable with backend and fullstack development using",
+        "stack1": "NestJS, Laravel and C#/.NET.",
+        "heading3": "My field of interest is building reliable",
         "heading4": "Web Technologies and Products",
-        "heading5": "Whenever possible, I also apply my passion for developing products with"
+        "heading5": "On the frontend I enjoy working with",
+        "stack2": "ReactJS",
+        "and2": "and",
+        "stack3": "TypeScript.",
+        "heading6": "With TOPIK Level 5 Korean and TOEIC 795, I bridge communication in both Korean and English."
     },
     "experience": {
         "title": "Experiences"
     },
     "skill": {
         "title": "Skills"
+    },
+    "aboutSection": {
+        "title": "Know Who <0>I'M</0>",
+        "intro1": "Hi everyone, I am Phung Hoang Anh from Hanoi, Vietnam.",
+        "intro2": "I am a final-year Information Technology student at Phenikaa University, now working as a Korean Bridge Engineer (BrSE/KRSE) at FPT Software.",
+        "intro3": "I love software development and especially enjoy bridging communication between Korean stakeholders and engineering teams, with TOPIK Level 5 Korean and TOEIC 795.",
+        "hobbiesIntro": "Apart from coding, here are some activities that I enjoy:",
+        "hobby1": "Playing games",
+        "hobby2": "Exploring new technologies and improving my skills",
+        "hobby3": "Learning Korean language and culture",
+        "quote": "\"Keep learning, keep growing\"",
+        "educationTitle": "Education",
+        "eduMajor": "Information Technology",
+        "eduSchool": "Phenikaa University (PKA)",
+        "languagesTitle": "Languages"
+    },
+    "projectSection": {
+        "title": "My Recent <0>Works</0>",
+        "subtitle": "Here are a few projects I've worked on recently.",
+        "github": "GitHub",
+        "demo": "Demo"
+    },
+    "contactSection": {
+        "title": "Get In <0>Touch</0>",
+        "subtitle": "Have an opportunity or just want to say hi? Feel free to reach out.",
+        "email": "Email",
+        "phone": "Phone",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+    },
+    "footer": {
+        "madeWith": "Made with",
+        "in": "in Vietnam"
     }
 }

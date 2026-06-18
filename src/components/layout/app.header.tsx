@@ -8,6 +8,19 @@ import { useTranslation } from "react-i18next";
 import { NavDropdown } from "react-bootstrap";
 import viFlag from "assets/svg/language/vi.svg";
 import enFlag from "assets/svg/language/en.svg";
+import koFlag from "assets/svg/language/ko.svg";
+
+const FLAGS: Record<string, string> = {
+  en: enFlag,
+  vi: viFlag,
+  ko: koFlag,
+};
+
+const LANGUAGES = [
+  { code: "en", flag: enFlag, label: "English" },
+  { code: "vi", flag: viFlag, label: "Tiếng Việt" },
+  { code: "ko", flag: koFlag, label: "한국어" },
+];
 
 type ThemeContextType = "light" | "dark";
 
@@ -25,7 +38,7 @@ function AppHeader() {
     return (
       <img
         style={{ height: 20, width: 20 }}
-        src={language === "en" ? enFlag : viFlag}
+        src={FLAGS[language] ?? enFlag}
         alt={language}
       />
     );
@@ -71,31 +84,22 @@ function AppHeader() {
               )}
             </div>
 
-            <NavDropdown title={renderFlag(i18n.resolvedLanguage!)}>
-              <div
-                onClick={() => i18n.changeLanguage("en")}
-                className="dropdown-item d-flex gap-2 align-items-center"
-                style={{ cursor: "pointer" }}
-              >
-                <img
-                  style={{ height: 20, width: 20 }}
-                  src={enFlag}
-                  alt="english"
-                />
-                <span>English</span>
-              </div>
-              <div
-                onClick={() => i18n.changeLanguage("vi")}
-                className="dropdown-item d-flex gap-2 align-items-center"
-                style={{ cursor: "pointer" }}
-              >
-                <img
-                  style={{ height: 20, width: 20 }}
-                  src={viFlag}
-                  alt="vietnamese"
-                />
-                <span>Tiếng Việt</span>
-              </div>
+            <NavDropdown title={renderFlag(i18n.resolvedLanguage!)} align="end">
+              {LANGUAGES.map((lang) => (
+                <div
+                  key={lang.code}
+                  onClick={() => i18n.changeLanguage(lang.code)}
+                  className="dropdown-item d-flex gap-2 align-items-center"
+                  style={{ cursor: "pointer" }}
+                >
+                  <img
+                    style={{ height: 20, width: 20 }}
+                    src={lang.flag}
+                    alt={lang.label}
+                  />
+                  <span>{lang.label}</span>
+                </div>
+              ))}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

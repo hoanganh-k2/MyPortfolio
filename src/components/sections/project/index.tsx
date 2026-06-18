@@ -1,37 +1,47 @@
-import { Col, Row } from "react-bootstrap"
+import { Col, Row } from "react-bootstrap";
+import { Trans, useTranslation } from "react-i18next";
 import ProjectCard from "./project.card";
-import { PROJECTS } from "../../../helpers/data";
+import { PROJECTS, TLanguage } from "../../../helpers/data";
 
 const Project = () => {
-    return (
-        <>
-            <Row>
-                <Col xs={12}>
-                    <h3 className="text-center">My Recent <span className="brand-red">Works</span> </h3>
-                    <h6 className="text-center mb-md-5 mb-2">Here are a few projects I've worked on recently.</h6>
-                </Col>
-            </Row>
-            <Row
-                style={{ justifyContent: "center", paddingBottom: "10px" }}
-            >
-                {PROJECTS?.map(item => {
-                    return (
-                        <Col md={4} className="project-card" key={item.id}>
-                            <ProjectCard
-                                imgPath={item.imgPath}
-                                title={item.title}
-                                description={item.description}
-                                githubLink={item.githubLink}
-                                demoLink={item.demoLink}
-                            />
-                        </Col>
-                    )
-                })}
+  const { t, i18n } = useTranslation();
+  const lang = i18n.resolvedLanguage as TLanguage;
 
-            </Row>
-            <div className="mb-7"></div>
-        </>
-    )
-}
+  return (
+    <>
+      <Row>
+        <Col xs={12}>
+          <h3 className="text-center">
+            <Trans
+              i18nKey="projectSection.title"
+              components={[<span className="brand-red" />]}
+            />
+          </h3>
+          <h6 className="text-center mb-md-5 mb-2">
+            {t("projectSection.subtitle")}
+          </h6>
+        </Col>
+      </Row>
+      <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        {PROJECTS?.map((item) => {
+          return (
+            <Col md={4} className="project-card" key={item.id}>
+              <ProjectCard
+                imgPath={item.imgPath}
+                title={item.title[lang]}
+                description={item.description[lang]}
+                githubLink={item.githubLink}
+                demoLink={item.demoLink}
+                githubLabel={t("projectSection.github")}
+                demoLabel={t("projectSection.demo")}
+              />
+            </Col>
+          );
+        })}
+      </Row>
+      <div className="mb-7"></div>
+    </>
+  );
+};
 
 export default Project;

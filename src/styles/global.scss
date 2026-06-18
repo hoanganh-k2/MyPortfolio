@@ -9,7 +9,7 @@ $spacers: (
     6: $spacer * 4,
     7: $spacer * 5,
 );
-// @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 @import 'bootstrap/scss/bootstrap.scss';
 @import './animation.scss';
 @import "./variable.scss";
@@ -17,6 +17,19 @@ $spacers: (
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+.social-icon {
+    transition: transform 250ms ease;
+    display: inline-flex;
+
+    &:hover {
+        transform: translateY(-3px) scale(1.1);
+    }
 }
 
 .brand-green {
@@ -142,11 +155,14 @@ body {
     color: var(--text-white);
     background-color: transparent !important;
     opacity: 0.9 !important;
-    transition: all 0.5s ease 0s !important;
+    transition: all 0.4s ease 0s !important;
     height: 100% !important;
+    overflow: hidden;
 
     &:hover {
         border-color: var(--brand-social);
+        transform: translateY(-6px);
+        opacity: 1 !important;
     }
 }
 

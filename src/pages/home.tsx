@@ -10,6 +10,7 @@ import Divider from "components/sections/divider";
 import Experience from "components/sections/experience";
 import Skill from "components/sections/skill";
 import { useRef } from "react";
+import { CONTACT } from "helpers/data";
 
 const HomePage = () => {
   const { t } = useTranslation();
@@ -17,6 +18,11 @@ const HomePage = () => {
   const expRef = useRef<HTMLElement>(null);
   const scrollToExp = () => {
     expRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const openCv = () => {
+    const win = window.open(CONTACT.CV_URL, "_blank", "noopener,noreferrer");
+    if (win) win.opener = null;
   };
 
   return (
@@ -46,6 +52,7 @@ const HomePage = () => {
               className="d-md-none d-flex mt-4 justify-content-center"
             >
               <ResizeButton
+                onClick={openCv}
                 btnText={t("heroSection.cv")}
                 btnIcons={<MdFileDownload />}
               />

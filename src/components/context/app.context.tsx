@@ -20,13 +20,10 @@ export const AppContextProvider = ({
     return initialTheme;
   });
 
+  // Luôn áp dụng theme hiện tại lên <html> (mặc định "dark" khi chưa có lựa chọn)
   useEffect(() => {
-    const mode = localStorage.getItem("theme") as ThemeContextType;
-    if (mode) {
-      setTheme(mode);
-      document.documentElement.setAttribute("data-bs-theme", mode);
-    }
-  }, []);
+    document.documentElement.setAttribute("data-bs-theme", theme);
+  }, [theme]);
 
   return (
     <AppContext.Provider

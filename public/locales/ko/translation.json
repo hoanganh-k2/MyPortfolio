@@ -1,0 +1,75 @@
+{
+    "appHeader": {
+        "brand": "포트폴리오",
+        "home": "홈",
+        "project": "프로젝트",
+        "contact": "연락처",
+        "about": "소개"
+    },
+    "heroSection": {
+        "greeting": "안녕하세요!",
+        "iam": "저는",
+        "exp": "경력",
+        "cv": "이력서 받기",
+        "roles": [
+            "한국어 브릿지 엔지니어",
+            "BrSE / KRSE",
+            "풀스택 개발자",
+            "브릿지 엔지니어"
+        ]
+    },
+    "introSection": {
+        "about": "소개",
+        "title": "저를 <0>소개</0>합니다",
+        "and": "및",
+        "heading1": "저는 프로그래밍을 사랑하며 한국 고객과 개발팀을 연결하는 한국어 브릿지 엔지니어(BrSE/KRSE)로서 경력을 쌓고 있습니다.",
+        "heading2": "백엔드와 풀스택 개발에 능숙합니다:",
+        "stack1": "NestJS, Laravel 및 C#/.NET.",
+        "heading3": "제 관심 분야는 신뢰할 수 있는",
+        "heading4": "웹 기술과 제품을 만드는 것입니다",
+        "heading5": "프론트엔드에서는 다음 기술을 즐겨 사용합니다:",
+        "stack2": "ReactJS",
+        "and2": "및",
+        "stack3": "TypeScript.",
+        "heading6": "TOPIK 5급 한국어와 TOEIC 795 점수로 한국어와 영어 모두에서 소통의 다리가 됩니다."
+    },
+    "experience": {
+        "title": "경력"
+    },
+    "skill": {
+        "title": "기술"
+    },
+    "aboutSection": {
+        "title": "저는 <0>이런</0> 사람입니다",
+        "intro1": "안녕하세요, 저는 베트남 하노이 출신의 풍 호앙 안입니다.",
+        "intro2": "프에니카 대학교 정보기술학과 졸업반 학생이며, 현재 FPT 소프트웨어에서 한국어 브릿지 엔지니어(BrSE/KRSE)로 일하고 있습니다.",
+        "intro3": "소프트웨어 개발을 사랑하며, TOPIK 5급 한국어와 TOEIC 795 실력으로 한국 고객과 엔지니어링 팀 사이의 소통을 잇는 역할을 특히 좋아합니다.",
+        "hobbiesIntro": "코딩 외에 제가 즐기는 활동들입니다:",
+        "hobby1": "게임",
+        "hobby2": "새로운 기술 탐구 및 역량 향상",
+        "hobby3": "한국어와 한국 문화 배우기",
+        "quote": "\"끊임없이 배우고, 끊임없이 성장하기\"",
+        "educationTitle": "학력",
+        "eduMajor": "정보기술",
+        "eduSchool": "프에니카 대학교 (PKA)",
+        "languagesTitle": "언어"
+    },
+    "projectSection": {
+        "title": "최근 <0>작업</0>",
+        "subtitle": "최근에 진행한 프로젝트 몇 가지입니다.",
+        "github": "GitHub",
+        "demo": "데모"
+    },
+    "contactSection": {
+        "title": "<0>연락</0>하기",
+        "subtitle": "협업 기회가 있거나 인사를 나누고 싶으시면 언제든 연락해 주세요.",
+        "email": "이메일",
+        "phone": "전화",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+    },
+    "footer": {
+        "madeWith": "제작:",
+        "in": "베트남에서"
+    }
+}

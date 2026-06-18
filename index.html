@@ -1,10 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <script>
+      // Áp dụng theme đã lưu (mặc định "dark") trước khi render để tránh nhấp nháy
+      (function () {
+        var t = localStorage.getItem("theme") || "dark";
+        document.documentElement.setAttribute("data-bs-theme", t);
+      })();
+    </script>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <meta name="theme-color" content="#0d1224" />
+    <meta name="author" content="Phung Hoang Anh" />
+    <meta
+      name="description"
+      content="Phung Hoang Anh — Korean Bridge Engineer (BrSE/KRSE). TOPIK Level 5, TOEIC 795. Backend & fullstack developer with NestJS, Laravel, ReactJS and C#/.NET."
+    />
+    <meta
+      name="keywords"
+      content="Phung Hoang Anh, BrSE, KRSE, Korean Bridge Engineer, Fullstack Developer, NestJS, ReactJS, Laravel, TOPIK"
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Phung Hoang Anh — Korean Bridge Engineer (BrSE/KRSE)"
+    />
+    <meta
+      property="og:description"
+      content="Korean Bridge Engineer (BrSE/KRSE) with TOPIK Level 5 & TOEIC 795. Backend & fullstack developer."
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <title>Phung Hoang Anh — Korean Bridge Engineer (BrSE/KRSE)</title>
   </head>
 
   <body>

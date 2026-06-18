@@ -25,21 +25,33 @@ const HeroRight = () => {
                         </span>
                     </div>
                     <div className="ms-4 me-2 text-pink-200">
+                        <span className="text-white-0">role:</span>
+                        <span className='text-yellow-500'>{`'`}Korean Bridge Engineer{`',`}</span>
+                    </div>
+                    <div className="ms-4 me-2 text-pink-200">
                         <span className="text-white-0">skills:</span>
                         <span>{`['`}</span>
-                        <span >React</span>
-                        <span>{"', '"}</span>
-                        <span >Redux</span>
-                        <span>{"', '"}</span>
-                        <span >NextJS</span>
-                        <span>{"', '"}</span>
                         <span >NestJS</span>
                         <span>{"', '"}</span>
-                        <span >NoSQL</span>
+                        <span >Laravel</span>
+                        <span>{"', '"}</span>
+                        <span >React</span>
+                        <span>{"', '"}</span>
+                        <span >C#</span>
                         <span>{"', '"}</span>
                         <span >SQL</span>
                         <span>{"', '"}</span>
                         <span >Docker</span>
+                        <span>{"'],"}</span>
+                    </div>
+                    <div className="ms-4 me-2 text-pink-200">
+                        <span className="text-white-0">languages:</span>
+                        <span>{`['`}</span>
+                        <span >KO (TOPIK 5)</span>
+                        <span>{"', '"}</span>
+                        <span >EN (TOEIC 795)</span>
+                        <span>{"', '"}</span>
+                        <span >VI</span>
                         <span>{"'],"}</span>
                     </div>
                     <div>

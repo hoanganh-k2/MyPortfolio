@@ -1,14 +1,12 @@
 import { Col, Row } from "react-bootstrap";
 import AnimationLottie from "components/share/animation-lottie";
 import experienceJSON from "assets/lottie/code.json";
-import { EXPERIENCES } from "helpers/data";
+import { EXPERIENCES, TLanguage } from "helpers/data";
 import GlowCard from "components/share/glow-card";
 import { BsPersonWorkspace } from "react-icons/bs";
 import blurImg from "assets/blur-23.svg";
 import { useCurrentApp } from "components/context/app.context";
 import { useTranslation } from "react-i18next";
-
-type TLanguage = "vi" | "en";
 
 const Experience = () => {
   const { theme } = useCurrentApp();

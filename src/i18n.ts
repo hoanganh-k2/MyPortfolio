@@ -18,7 +18,14 @@ i18n
     .init({
         debug: false,
         fallbackLng: 'en',
-        lng: 'en', // default language
+        supportedLngs: ['en', 'vi', 'ko'],
+        load: 'languageOnly',
+        // chỉ phát hiện ngôn ngữ qua querystring và lựa chọn đã lưu,
+        // mặc định về 'en' khi chưa có gì — đồng thời ghi nhớ lựa chọn người dùng
+        detection: {
+            order: ['querystring', 'localStorage'],
+            caches: ['localStorage'],
+        },
         interpolation: {
             escapeValue: false, // not needed for react as it escapes by default
         }

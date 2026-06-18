@@ -4,25 +4,72 @@
         "home": "Trang chủ",
         "project": "Dự án",
         "contact": "Liên hệ",
-        "about": "Về tác giả"
+        "about": "Về tôi"
     },
     "heroSection": {
+        "greeting": "Xin chào!",
+        "iam": "Tôi là",
         "exp": "Kinh nghiệm",
-        "cv": "Tải Resume"
+        "cv": "Tải Resume",
+        "roles": [
+            "Kỹ sư cầu nối Hàn Quốc",
+            "BrSE / KRSE",
+            "Lập trình viên Fullstack",
+            "브릿지 엔지니어"
+        ]
     },
     "introSection": {
         "about": "Giới thiệu",
+        "title": "ĐÔI NÉT <0>GIỚI THIỆU</0> BẢN THÂN",
         "and": "và",
-        "heading1": "Yêu đơn phương lập trình và tôi tin rằng mình đã học hỏi được ít nhiều điều gì đó. 🤷‍♂️",
-        "heading2": "Tôi nắm vững các ngôn ngữ huyền thoại như là",
-        "heading3": "Lĩnh vực quan tâm của tôi là",
-        "heading4": "xây dựng các công nghệ web mới và các sản phẩm liên quan",
-        "heading5": "Bất cứ khi nào có thể, tôi cũng áp dụng niềm đam mê phát triển sản phẩm của mình với"
+        "heading1": "Tôi yêu lập trình và đang theo đuổi sự nghiệp Kỹ sư cầu nối Hàn Quốc (BrSE/KRSE), kết nối khách hàng Hàn Quốc với đội ngũ phát triển.",
+        "heading2": "Tôi làm tốt mảng backend và fullstack với",
+        "stack1": "NestJS, Laravel và C#/.NET.",
+        "heading3": "Lĩnh vực tôi quan tâm là xây dựng các",
+        "heading4": "công nghệ web và sản phẩm đáng tin cậy",
+        "heading5": "Ở phía frontend, tôi thích làm việc với",
+        "stack2": "ReactJS",
+        "and2": "và",
+        "stack3": "TypeScript.",
+        "heading6": "Với tiếng Hàn TOPIK Cấp 5 và TOEIC 795, tôi làm cầu nối giao tiếp cả tiếng Hàn lẫn tiếng Anh."
     },
     "experience": {
         "title": "Kinh nghiệm làm việc"
     },
     "skill": {
         "title": "Kỹ năng"
+    },
+    "aboutSection": {
+        "title": "ĐÔI ĐIỀU VỀ <0>TÔI</0>",
+        "intro1": "Xin chào mọi người, tôi là Phùng Hoàng Anh đến từ Hà Nội, Việt Nam.",
+        "intro2": "Tôi là sinh viên năm cuối ngành Công nghệ thông tin tại Đại học Phenikaa, hiện làm Kỹ sư cầu nối Hàn Quốc (BrSE/KRSE) tại FPT Software.",
+        "intro3": "Tôi yêu phát triển phần mềm và đặc biệt thích vai trò cầu nối giao tiếp giữa khách hàng Hàn Quốc và đội kỹ thuật, với tiếng Hàn TOPIK Cấp 5 và TOEIC 795.",
+        "hobbiesIntro": "Ngoài lập trình, đây là một vài hoạt động tôi yêu thích:",
+        "hobby1": "Chơi game",
+        "hobby2": "Khám phá công nghệ mới và nâng cao kỹ năng",
+        "hobby3": "Học tiếng Hàn và văn hóa Hàn Quốc",
+        "quote": "\"Học không ngừng, tiến không ngừng\"",
+        "educationTitle": "Học vấn",
+        "eduMajor": "Công nghệ thông tin",
+        "eduSchool": "Đại học Phenikaa (PKA)",
+        "languagesTitle": "Ngôn ngữ"
+    },
+    "projectSection": {
+        "title": "Dự án <0>gần đây</0>",
+        "subtitle": "Một vài dự án tôi đã thực hiện gần đây.",
+        "github": "GitHub",
+        "demo": "Demo"
+    },
+    "contactSection": {
+        "title": "Kết nối <0>với tôi</0>",
+        "subtitle": "Bạn có cơ hội hợp tác hay chỉ muốn chào hỏi? Đừng ngần ngại liên hệ nhé.",
+        "email": "Email",
+        "phone": "Điện thoại",
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+    },
+    "footer": {
+        "madeWith": "Được làm với",
+        "in": "tại Việt Nam"
     }
 }

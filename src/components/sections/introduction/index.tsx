@@ -2,10 +2,10 @@ import { Col, Row } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import avatarImg from "../../../assets/avatar.svg";
 import "./introduction.scss";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 const Introduction = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <section
@@ -15,15 +15,10 @@ const Introduction = () => {
       <Row>
         <Col xs={12} md={9}>
           <h2 className="text-center text-md-start">
-            {i18n.resolvedLanguage === "en" ? (
-              <>
-                LET ME <span className="text-pink-100"> INTRODUCE </span> MYSELF
-              </>
-            ) : (
-              <>
-                <span className="text-pink-100">GIỚI THIỆU</span> BẢN THÂN
-              </>
-            )}
+            <Trans
+              i18nKey="introSection.title"
+              components={[<span className="text-pink-100" />]}
+            />
           </h2>
           <br />
           <p>
@@ -32,10 +27,7 @@ const Introduction = () => {
             <br />
             {t("introSection.heading2")}
             <i>
-              <b className="text-pink-100">
-                {" "}
-                Javascript {t("introSection.and")} PHP.{" "}
-              </b>
+              <b className="text-pink-100"> {t("introSection.stack1")} </b>
             </i>
             <br />
             <br />
@@ -47,12 +39,15 @@ const Introduction = () => {
             <br />
             {t("introSection.heading5")}
             <i>
-              <b className="text-pink-100">&nbsp;ReactJS</b>{" "}
+              <b className="text-pink-100">&nbsp;{t("introSection.stack2")}</b>{" "}
             </i>
-            {t("introSection.and")}
+            {t("introSection.and2")}
             <i>
-              <b className="text-pink-100"> Node.js</b>
+              <b className="text-pink-100"> {t("introSection.stack3")}</b>
             </i>
+            <br />
+            <br />
+            {t("introSection.heading6")}
           </p>
         </Col>
         <Col md={3} className="d-md-block d-none">

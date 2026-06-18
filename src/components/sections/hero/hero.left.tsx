@@ -3,7 +3,7 @@ import SocialMedia from "../social.media";
 import { useTranslation } from "react-i18next";
 import "./hero.scss";
 import ResizeButton from "../resize.button";
-import { APP_DATA } from "../../../helpers/data";
+import { CONTACT } from "../../../helpers/data";
 import { MdFileDownload } from "react-icons/md";
 import { AiFillFire } from "react-icons/ai";
 
@@ -13,6 +13,7 @@ interface IProps {
 
 const HeroLeft = (props: IProps) => {
   const { scrollToExp } = props;
+  const { t, i18n } = useTranslation();
 
   const openInNewTab = (url: string) => {
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
@@ -20,41 +21,42 @@ const HeroLeft = (props: IProps) => {
   };
 
   const ReviewCv = () => {
-    openInNewTab(
-      "https://drive.google.com/file/d/1mNMAGv11NbFLzTSWMsOk7Mum20EeYem3/view?usp=sharing",
-    );
+    openInNewTab(CONTACT.CV_URL);
   };
 
-  const { t } = useTranslation();
+  const roles = t("heroSection.roles", { returnObjects: true }) as string[];
 
   return (
     <div className="hero-left">
       <h3>
-        Hi There!{" "}
+        {t("heroSection.greeting")}{" "}
         <span className="wave" role="img" aria-labelledby="wave">
           👋🏻
         </span>
       </h3>
       <h3 style={{ paddingTop: 10, paddingBottom: 5 }}>
-        I'M &nbsp;
+        {t("heroSection.iam")} &nbsp;
         <strong className="brand-red">PHUNG HOANG ANH</strong>
       </h3>
-      <Typewriter
-        options={{
-          strings: ["Software Developer", "Freelancer"],
-          autoStart: true,
-          loop: true,
-          deleteSpeed: 50,
-          wrapperClassName: "brand-green",
-        }}
-      />
-      <div className="mt-md-6 mt-3 mb-md-5 mb-2">
-        <SocialMedia
-          youtube={APP_DATA.YOUTUBE_URL}
-          facebook={APP_DATA.FACEBOOK_URL}
-          tiktok={APP_DATA.TIKTOK_URL}
-          udemy={APP_DATA.UDEMY_URL}
+      <div className="hero-typewriter">
+        <Typewriter
+          key={i18n.resolvedLanguage}
+          options={{
+            strings: roles,
+            autoStart: true,
+            loop: true,
+            deleteSpeed: 50,
+            wrapperClassName: "brand-green",
+          }}
         />
+      </div>
+      <div className="hero-badges">
+        <span className="hero-badge">TOPIK 5</span>
+        <span className="hero-badge">TOEIC 795</span>
+        <span className="hero-badge">BrSE / KRSE</span>
+      </div>
+      <div className="mt-md-5 mt-3 mb-md-5 mb-2">
+        <SocialMedia />
       </div>
       <div className="d-md-flex d-none gap-4">
         <ResizeButton
