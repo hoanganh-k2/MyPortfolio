@@ -123,7 +123,7 @@ export const PROJECTS: IProject[] = [
       ko: `지원자와 한국 기업의 채용 공고를 연결하는 플랫폼입니다. 프로필 작성, 채용 검색 및 역량·한국어 수준 기반 매칭 추천을 제공하며 ReactJS로 풀스택 구현했습니다.`,
     },
     githubLink: "https://github.com/hoanganh-k2/carrerMatch-korean.git",
-    demoLink: "https://github.com/hoanganh-k2/carrerMatch-korean.git",
+    demoLink: "https://my-portfolio-anhph-dev.vercel.app/",
   },
   {
     id: 3,
@@ -219,11 +219,11 @@ export const LANGUAGES_DATA: ILanguageSkill[] = [
   {
     id: 1,
     name: { vi: "Tiếng Hàn", en: "Korean", ko: "한국어" },
-    level: { vi: "TOPIK Cấp 5", en: "TOPIK Level 5", ko: "TOPIK 5급" },
+    level: { vi: "TOPIK Cấp 4", en: "TOPIK Level 4", ko: "TOPIK 4급" },
   },
   {
     id: 2,
     name: { vi: "Tiếng Anh", en: "English", ko: "영어" },
-    level: { vi: "TOEIC 795", en: "TOEIC 795", ko: "TOEIC 795" },
+    level: { vi: "TOEIC 630", en: "TOEIC 630", ko: "TOEIC 630" },
   },
 ];

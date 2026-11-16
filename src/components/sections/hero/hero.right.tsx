@@ -47,9 +47,9 @@ const HeroRight = () => {
                     <div className="ms-4 me-2 text-pink-200">
                         <span className="text-white-0">languages:</span>
                         <span>{`['`}</span>
-                        <span >KO (TOPIK 5)</span>
+                        <span >KO (TOPIK 4)</span>
                         <span>{"', '"}</span>
-                        <span >EN (TOEIC 795)</span>
+                        <span >EN (TOEIC 630)</span>
                         <span>{"', '"}</span>
                         <span >VI</span>
                         <span>{"'],"}</span>

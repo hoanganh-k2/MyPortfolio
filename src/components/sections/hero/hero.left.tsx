@@ -51,8 +51,8 @@ const HeroLeft = (props: IProps) => {
         />
       </div>
       <div className="hero-badges">
-        <span className="hero-badge">TOPIK 5</span>
-        <span className="hero-badge">TOEIC 795</span>
+        <span className="hero-badge">TOPIK 4</span>
+        <span className="hero-badge">TOEIC 630</span>
         <span className="hero-badge">BrSE / KRSE</span>
       </div>
       <div className="mt-md-5 mt-3 mb-md-5 mb-2">

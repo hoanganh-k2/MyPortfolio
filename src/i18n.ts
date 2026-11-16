@@ -17,11 +17,11 @@ i18n
     // for all options read: https://www.i18next.com/overview/configuration-options
     .init({
         debug: false,
-        fallbackLng: 'en',
+        fallbackLng: 'vi',
         supportedLngs: ['en', 'vi', 'ko'],
         load: 'languageOnly',
         // chỉ phát hiện ngôn ngữ qua querystring và lựa chọn đã lưu,
-        // mặc định về 'en' khi chưa có gì — đồng thời ghi nhớ lựa chọn người dùng
+        // mặc định về 'vi' khi chưa có gì — đồng thời ghi nhớ lựa chọn người dùng
         detection: {
             order: ['querystring', 'localStorage'],
             caches: ['localStorage'],
