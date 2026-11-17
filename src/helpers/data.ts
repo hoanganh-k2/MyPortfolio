@@ -123,7 +123,7 @@ export const PROJECTS: IProject[] = [
       ko: `지원자와 한국 기업의 채용 공고를 연결하는 플랫폼입니다. 프로필 작성, 채용 검색 및 역량·한국어 수준 기반 매칭 추천을 제공하며 ReactJS로 풀스택 구현했습니다.`,
     },
     githubLink: "https://github.com/hoanganh-k2/carrerMatch-korean.git",
-    demoLink: "https://my-portfolio-anhph-dev.vercel.app/",
+    demoLink: "https://carrer-match-korean.vercel.app/",
   },
   {
     id: 3,
